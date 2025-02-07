@@ -6,7 +6,7 @@ export default function ColorBox() {
   return (
     <div
       data-testid="colorBox"
-      className="w-36 h-36 mx-auto my-4 rounded-md shadow-lg"
+      className="w-36 h-36 mx-auto mb-4 mt-8 rounded-md shadow-lg animate-bounce"
       style={{ backgroundColor: targetColor }}
       onClick={() => alert(color)}
     ></div>
